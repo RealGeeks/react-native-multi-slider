@@ -2,9 +2,8 @@
 
 var React = require('react');
 var ReactNative = require('react-native');
-var {
-  PropTypes
-} = React;
+var PropTypes = require('prop-types');
+var createReactClass = require('create-react-class');
 var {
   StyleSheet,
   PanResponder,
@@ -44,7 +43,7 @@ var sliderProps = {
   pressedMarkerStyle: View.propTypes.style
 };
 
-var Slider = React.createClass({
+var Slider = createReactClass({
 
   propTypes: sliderProps,
 
