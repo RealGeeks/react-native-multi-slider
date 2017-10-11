@@ -1,5 +1,10 @@
 # react-native-multi-slider
 
+> This package is a fork of react-native-multi-slider that just have some react
+> updates.
+
+- Original package: [react-native-multi-slider](https://github.com/JackDanielsAndCode/react-native-multi-slider)
+
 **Note:** Anyone using RN <=0.18  should use version 0.2.5
 
 [![NPM](https://nodei.co/npm-dl/react-native-multi-slider.png?months=3)](https://nodei.co/npm/react-native-multi-slider/)
@@ -71,7 +76,7 @@ $ npm i react-native-multi-slider --save
 | selectedStyle | `{backgroundColor: 'blue'}` | `object` | Style for the track up to a single marker or between double markers |
 | unselectedStyle | `{backgroundColor: 'grey'}` | `object` | Style for remaining track |
 | markerStyle | `{ height:30, width: 30, borderRadius: 15, backgroundColor:'#E8E8E8', borderWidth: 0.5, borderColor: 'grey'}` | `object` | Customise the marker's style |
-| pressedMarkerStyle | `{backgroundColor:'#D3D3D3'}` | `object` | Style to be given to marker when pressed |  
+| pressedMarkerStyle | `{backgroundColor:'#D3D3D3'}` | `object` | Style to be given to marker when pressed |
 
 
 ## Questions & Suggestions
